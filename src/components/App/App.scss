@@ -1,6 +1,7 @@
-$flexboxgrid: '../../assets/stylesheets/flexboxgrid.scss';
+$flexboxgrid: '../../assets/stylesheets/flexboxgrid/flexboxgrid.css';
 
 .content {
+  composes: row from $flexboxgrid;
   height: 100%;
   width: 100%;
 }
