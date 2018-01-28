@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Bio.css';
 
 const Bio = () => (
-  <div>
+  <section className={styles.container}>
     Bio
-  </div>
+  </section>
 );
 
 export default Bio;

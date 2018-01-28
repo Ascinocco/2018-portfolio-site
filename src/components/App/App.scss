@@ -1,6 +1,6 @@
 $flexboxgrid: '../../assets/stylesheets/flexboxgrid/flexboxgrid.css';
 
-.content {
+.container {
   composes: row from $flexboxgrid;
   height: 100%;
   width: 100%;
