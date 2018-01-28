@@ -1,0 +1,38 @@
+@import '../../assets/stylesheets/colors.scss';
+@import '../../assets/stylesheets/typograhpy.scss';
+
+$flexboxgrid: '../../assets/stylesheets/flexboxgrid.css';
+
+.container {
+  composes: col-xs-3 from $flexboxgrid;
+  border: 2px solid $border-color;
+  padding: 0;
+}
+
+.profile-image--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $accent-color;
+  padding: 8px;
+  border-bottom: 2px solid $border-color;
+}
+
+.profile-image {
+  max-width: 100%;
+}
+
+.profile-description--container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+}
+
+.profile-description--name {
+  font-size: $font-size--content;
+}
+
+.profile-description--job-title {
+  font-size: 0.75rem;
+}
