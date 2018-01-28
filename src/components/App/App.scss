@@ -1,4 +1,4 @@
-$flexboxgrid: '../../assets/stylesheets/flexboxgrid/flexboxgrid.css';
+$flexboxgrid: '../../assets/stylesheets/flexboxgrid.css';
 
 .container {
   composes: row from $flexboxgrid;

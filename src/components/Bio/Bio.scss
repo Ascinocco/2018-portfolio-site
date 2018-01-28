@@ -37,3 +37,10 @@ $flexboxgrid: '../../assets/stylesheets/flexboxgrid.css';
 .profile-description--job-title {
   font-size: 0.75rem;
 }
+
+.profile-keywords--container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 0.75vw;
+}

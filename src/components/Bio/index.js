@@ -15,6 +15,13 @@ const Bio = () => (
       <h1 className={styles['profile-description--name']}>Anthony Scinocco</h1>
       <h2 className={styles['profile-description--job-title']}>Full Stack Developer</h2>
     </main>
+    <footer className={styles['profile-keywords--container']}>
+      <span>Geek</span>
+      <span>&nbsp;&bull;&nbsp;</span>
+      <span>Passionate</span>
+      <span>&nbsp;&bull;&nbsp;</span>
+      <span>Organized</span>
+    </footer>
   </section>
 );
 
