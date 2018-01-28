@@ -1,9 +1,12 @@
 import React from 'react';
+import styles from './App.css';
+
+import Bio from '../Bio';
 
 const App = () => (
-  <div>
-    Anthonys Portfolio Site.
-  </div>
+  <main className={styles.content}>
+    <Bio />
+  </main>
 );
 
 export default App;
