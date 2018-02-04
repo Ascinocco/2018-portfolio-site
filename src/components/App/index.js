@@ -2,6 +2,8 @@ import React from 'react';
 import { Grid, Container } from 'semantic-ui-react';
 import './App.css';
 
+import Bio from '../Bio';
+
 const { Row, Column } = Grid;
 
 const App = () => (
@@ -13,8 +15,8 @@ const App = () => (
     textAlign={'left'}
   >
     <Row className={'portfolio--row'}>
-      <Column width={4}>
-        <h1>Bio</h1>
+      <Column className={'portfolio--container'} width={4}>
+        <Bio />
       </Column>
       <Column width={6}>
         <h1>Experience &amp; Education</h1>

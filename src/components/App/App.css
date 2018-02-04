@@ -1,3 +1,7 @@
 .portfolio--row {
   min-height: 50vh;
 }
+
+.portfolio--container {
+  height: 100%;
+}
