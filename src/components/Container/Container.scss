@@ -1,0 +1,29 @@
+@import '../../assets/stylesheets/colors.scss';
+
+.container {
+  border: 1px solid $border-color;
+  margin: 7px;
+  padding: 8px;
+}
+
+@media only screen and (max-width : 599px) {
+  .container {
+    background-color: yellow;
+    // font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width : 1281px) {
+  .container {
+    background-color: blue;
+    // font-size: 0.6vw;
+  }
+}
+
+@media only screen and (min-width : 321px) and (max-width : 767px) {
+  .container {
+    // max-width: 30%;
+    // font-size: 1.25vw;
+    background-color: green;
+  }
+}

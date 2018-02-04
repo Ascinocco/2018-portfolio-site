@@ -5,3 +5,7 @@ $flexboxgrid: '../../assets/stylesheets/flexboxgrid.css';
   height: 100%;
   width: 100%;
 }
+
+.something {
+  composes: col-sm-3 col-xs-12 from $flexboxgrid;
+}
