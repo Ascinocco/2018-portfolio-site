@@ -2,6 +2,7 @@
 
 :root {
   /* Colors */
+  --white: #fff;                  /* white       | Secondary Background color */
   --gray: #808080;                /* gray        | font color */
   --light-gray: #d3d3d3;          /* light gray  | border color */
   --powder-blue:  #b0e0e6;        /* powder blue | accent color */

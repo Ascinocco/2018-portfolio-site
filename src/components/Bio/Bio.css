@@ -1,11 +1,17 @@
-.bio--card--container {
-  height: 100%;
-}
-
 .bio--card {
   height: 100%;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  border-radius: 0;
+  padding: 0;
+  min-height: 0;
+  border: 1px solid var(--light-gray);
 }
 
 .bio--card--image {
-  height: 250px;
+  max-height: 250px;
+  border-radius: 0 !important;
 }
